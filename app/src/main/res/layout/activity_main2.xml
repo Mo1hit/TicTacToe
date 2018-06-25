@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="@color/pinkish"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:text="Tic Tac Toe"
+        android:textSize="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="197dp"
+        android:textSize="25dp"
+        android:text="Choose Grid Size" />
+
+    <RadioGroup
+        android:id="@+id/radgrp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <RadioButton
+            android:id="@+id/sizeid3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3*3"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/sizeid4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4*4"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/sizeid5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5*5"
+            android:textSize="20dp" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="152dp"
+        android:text="Let's Play"
+        android:id="@+id/button"
+        android:textSize="30dp"
+        android:background="@drawable/button_bg"
+        />
+
+</RelativeLayout>
